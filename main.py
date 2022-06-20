@@ -11,6 +11,9 @@ def sum(x, y):
 def mult(x, y):
     return x*y
 
+def sub(x, y):
+    return x-y
+
 y= input("Informe um Numero:")
 y=int(y)
 
@@ -23,3 +26,5 @@ if ope == "+":
     print("A soma é {}".format(sum(x,y)))
 elif ope == "*":
     print("A multiplicacao é {}".format(mult(x,y)))
+elif ope == "-":
+    print("A subtracao é {}".format(sub(x,y)))
